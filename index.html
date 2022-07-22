@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up card</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: darkblue;
+        }
+
+        body h6,
+        h2 {
+            font-family: sans-serif;
+            text-align: center;
+            /* margin: 8px */
+        }
+
+        #box {
+            border-radius: 10px;
+            font-family: sans-serif;
+            padding: 20px;
+            margin: 30px auto;
+            background-color: silver;
+            width: 300px;
+        }
+
+        #box-1 input {
+            border: 1px solid#e6e6e6;
+            border-radius: 5px;
+            width: 100%;
+            padding: 8px;
+        }
+
+        .btn {
+            border-radius: 5px;
+            border: 1px solid #e6e6e6;
+            font-family: sans-serif;
+            padding: 10px;
+            width: 100%;
+            margin: 20px auto;
+            background-color: green;
+            color: yellow;
+        }
+
+        .btn:hover {
+            background-color: darkgreen;
+        }
+
+        h4 {
+            margin: 12px 0 0;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="box">
+        <h2>Sign Up</h2>
+        <h6>Lorem ipsum dolor sit amet.</h6>
+        <form id="box-1">
+            <label for="fname">
+                <h4>First Name :</h4>
+                <input type="text" id="fname" name="fname">
+            </label>
+            <label for="lname">
+                <h4>Last Name :</h4>
+                <input type="text" id="lname" name="lname">
+            </label>
+            <label for="email">
+                <h4>Email :</h4>
+                <input type="text" id="email" name="email">
+            </label>
+            <label for="pass">
+                <h4>Password :</h4>
+                <input type="password" id="pass" name="pass">
+            </label>
+            <label for="conpass">
+                <h4>Confirm Password :</h4>
+                <input type="password" id="conpass" name="conpass">
+            </label>
+        </form>
+
+        <button class="btn">Sign Up</button>
+        <h6>
+            <a href="#">Terms & Conditionals</a>
+             and 
+            <a href="#">Privacy Police</a>
+            <br>
+            <br>
+            Already have an account?
+            <a href="#">Login Here</a>
+        </h6>
+    </div>
+
+</body>
+
+</html>
